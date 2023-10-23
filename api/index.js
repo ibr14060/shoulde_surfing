@@ -32,6 +32,8 @@ app.all('*', function(req, res, next) {
     return randomInRange;
   }
   const randomNumber=getRandomNumber(1,9);
+  console.log("alphabet")
+  console.log("A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z")
   console.log(randomNumber)
  app.post('/api/register', async (req, res) => {
     try {
